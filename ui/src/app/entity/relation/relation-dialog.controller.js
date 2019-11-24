@@ -89,7 +89,7 @@ export default function RelationDialogController($scope, $mdDialog, types, entit
     }
 
     function save() {
-        $log.info("--info relation--");
+        //$log.info("--info relation--");
         if (vm.isAdd) {
             if (vm.direction == vm.types.entitySearchDirection.from) {
                 vm.relation.to = vm.targetEntityId;
